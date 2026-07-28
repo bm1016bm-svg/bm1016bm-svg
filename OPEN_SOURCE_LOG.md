@@ -6,8 +6,8 @@ A concise, evidence-linked record of what I built, fixed, tested, and learned.
 
 | Metric | Count |
 | --- | ---: |
-| Pull requests opened | 28 |
-| Pull requests to external repositories | 19 |
+| Pull requests opened | 30 |
+| Pull requests to external repositories | 21 |
 | External pull requests merged | 6 |
 | Evidrift pull requests merged | 9 |
 
@@ -18,6 +18,8 @@ Counts were verified from GitHub PR search for [`author:bm1016bm-svg`](https://g
 - Opened [alibaba/open-code-review#546](https://github.com/alibaba/open-code-review/pull/546): simplified stale-chunk recovery and added four focused ErrorBoundary unit tests plus a Pages CI test step.
 - Opened [C4illin/ConvertX#587](https://github.com/C4illin/ConvertX/pull/587): fixed preview and download URLs for filenames containing `#` and other reserved characters, with two regression tests. The full suite passed with 100 tests and 8 existing skips.
 - Opened [HKUDS/LightRAG#3501](https://github.com/HKUDS/LightRAG/pull/3501): synchronized Docling's document/image suffix capabilities so explicit parser routing accepts current formats, with focused registry and routing regression coverage.
+- Opened [openclaw/openclaw#114922](https://github.com/openclaw/openclaw/pull/114922): let users clear an explicitly selected worktree after Git rediscovery fails, with a mocked-Gateway Control UI E2E regression.
+- Opened [stablyai/orca#11082](https://github.com/stablyai/orca/pull/11082): fixed PDF search navigation counters by handling the exact pdf.js control-state event, with a focused React regression test.
 - Addressed final documentation review on [collective/icalendar#1599](https://github.com/collective/icalendar/pull/1599), shortening the Sphinx attribute link label. The focused test suite passed with 181 tests, and the GitHub CI run passed.
 - Added explicit AWS credential-precedence coverage to [renovatebot/renovate#44853](https://github.com/renovatebot/renovate/pull/44853), proving that complete `hostRules` credentials override a configured AWS profile. The repository's targeted check command and required CI checks passed.
 
