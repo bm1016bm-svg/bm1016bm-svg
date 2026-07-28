@@ -8,6 +8,6 @@
 
 平常常碰：TypeScript、Node.js、MCP、CLI、GitHub Actions。
 
-[看看 Evidrift](https://github.com/bm1016bm-svg/evidrift) · [我的網站](https://chochihchieh.vercel.app/)
+[看看 Evidrift](https://github.com/bm1016bm-svg/evidrift) · [開源工作日誌](./OPEN_SOURCE_LOG.md) · [我的網站](https://chochihchieh.vercel.app/)
 
 Taiwan-based developer. I like turning ideas into tools that actually run.
