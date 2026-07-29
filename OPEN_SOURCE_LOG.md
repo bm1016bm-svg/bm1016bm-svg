@@ -2,16 +2,22 @@
 
 A concise, evidence-linked record of what I built, fixed, tested, and learned.
 
-## Snapshot — 2026-07-28
+## Snapshot — 2026-07-29
 
 | Metric | Count |
 | --- | ---: |
-| Pull requests opened | 30 |
-| Pull requests to external repositories | 21 |
+| Pull requests opened | 33 |
+| Pull requests to external repositories | 24 |
 | External pull requests merged | 6 |
 | Evidrift pull requests merged | 9 |
 
 Counts were verified from GitHub PR search for [`author:bm1016bm-svg`](https://github.com/pulls?q=is%3Apr+author%3Abm1016bm-svg).
+
+## 2026-07-29
+
+- Opened [MudBlazor/MudBlazor#13552](https://github.com/MudBlazor/MudBlazor/pull/13552): declared the actual generic value type in every chart documentation example, preventing Razor type-inference errors across 27 examples.
+- Opened [pytorch/ao#4635](https://github.com/pytorch/ao/pull/4635): fixed Triton's partial-K masking condition for odd and even tails, with a sentinel-padded regression test for `K=34` and `BLOCK_K=32`.
+- Opened [sanic-org/sanic#3180](https://github.com/sanic-org/sanic/pull/3180): preserved per-app runtime state across spawned workers so secondary apps retain built-in HTTP lifecycle signals. Focused worker and startup tests passed with 19 tests and 1 platform skip.
 
 ## 2026-07-28
 
