@@ -2,16 +2,21 @@
 
 A concise, evidence-linked record of what I built, fixed, tested, and learned.
 
-## Snapshot — 2026-07-29
+## Snapshot — 2026-07-30
 
 | Metric | Count |
 | --- | ---: |
 | Pull requests opened | 33 |
 | Pull requests to external repositories | 24 |
-| External pull requests merged | 6 |
+| External pull requests merged | 7 |
 | Evidrift pull requests merged | 9 |
 
 Counts were verified from GitHub PR search for [`author:bm1016bm-svg`](https://github.com/pulls?q=is%3Apr+author%3Abm1016bm-svg).
+
+## 2026-07-30
+
+- Merged [MudBlazor/MudBlazor#13552](https://github.com/MudBlazor/MudBlazor/pull/13552), adding explicit generic value types across 27 chart documentation examples.
+- Addressed automated review on [HKUDS/LightRAG#3501](https://github.com/HKUDS/LightRAG/pull/3501): Docling's optional suffixes are now resolved lazily, so values loaded from `.env` after registry import still affect CLI and routing capability checks. The focused suite passes with 9 tests.
 
 ## 2026-07-29
 
