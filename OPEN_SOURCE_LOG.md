@@ -2,6 +2,22 @@
 
 A concise, evidence-linked record of what I built, fixed, tested, and learned.
 
+## 2026-09-22
+
+- Merged [Evidrift#14](https://github.com/bm1016bm-svg/evidrift/pull/14), refreshing five vulnerable development dependencies within their existing version ranges. All four Windows/Linux CI jobs passed. Glama was synced to the merged commit and published its own release **0.1.1** (Evidrift still reports **0.4.1**); the [build and MCP inspection passed](https://glama.ai/mcp/servers/bm1016bm-svg/evidrift/admin/dockerfile/tests/01a0c7fd-3b1f-7067-aa64-21cdf5e21fbd), and the build's npm audit reported zero vulnerabilities.
+- Completed Glama author verification and evaluation, then [requested another review](https://github.com/punkpeye/awesome-mcp-servers/pull/10754#issuecomment-5772630746) of the Evidrift directory submission. Server Coherence and Tool Definition Quality are rated A; directory acceptance is still pending.
+- Addressed human review on [HeroicGamesLauncher#5801](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/pull/5801): replaced an ambiguous undo icon with a translated, native “Restore default” text button. TypeScript, focused ESLint/Prettier checks, and a local mocked-component behavior check passed. Pushed the update and replied to the reviewer; this PR is not yet merged.
+
+## 2026-09-18
+
+- [rybbit-io/rybbit#1208](https://github.com/rybbit-io/rybbit/pull/1208) was merged: enforce the proxy request-body limit without rejecting valid imports. This is a request-handling correctness and resource-limit fix, rather than a translation contribution.
+
+## 2026-09-11
+
+- [umami-software/umami#4421](https://github.com/umami-software/umami/pull/4421) was merged: support the distinct ID tracker attribute, making visitor identification configurable through tracker markup.
+
+The dates above use GitHub's UTC merge timestamps. The older snapshot below is historical, not a current account total.
+
 ## Snapshot — 2026-07-30
 
 | Metric | Count |
